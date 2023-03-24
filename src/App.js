@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import MainHeader from "./components/MainHeader";
+import BtnToNaver from "./components/BtnToNaver";
+import ImgComponent from "./components/ImgComponent";
+import ClassComponent from "./components/ClassComponent";
+import FunctionalComponent from "./components/FunctionalComponent";
+import ClassBtnToNaver from "./components/ClassBtnToNaver";
+import ClassImgComponent from "./components/ClassImgComponent";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MainHeader />
+      {/* <BtnToNaver />
+      <ImgComponent /> */}
+      <ClassComponent />
+      <FunctionalComponent />
+      <ClassBtnToNaver />
+      <ClassImgComponent />
     </div>
   );
 }
-
 export default App;
