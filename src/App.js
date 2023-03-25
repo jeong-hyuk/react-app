@@ -16,7 +16,6 @@ function App() {
       <ClassComponent />
       <FunctionalComponent />
       <ClassBtnToNaver />
-      <ClassImgComponent />
     </div>
   );
 }
