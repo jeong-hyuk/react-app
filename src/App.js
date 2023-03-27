@@ -1,21 +1,15 @@
+import logo from "./logo.svg";
 import "./App.css";
-import MainHeader from "./components/MainHeader";
-import BtnToNaver from "./components/BtnToNaver";
-import ImgComponent from "./components/ImgComponent";
-import ClassComponent from "./components/ClassComponent";
-import FunctionalComponent from "./components/FunctionalComponent";
-import ClassBtnToNaver from "./components/ClassBtnToNaver";
-import ClassImgComponent from "./components/ClassImgComponent";
+import State from "./components/State";
+import State2 from "./components/State2";
+import Example2 from "./components/Example2";
+import Condition from "./components/Condition";
+import Example3 from "./components/Example3";
 
 function App() {
   return (
     <div className="App">
-      <MainHeader />
-      {/* <BtnToNaver />
-      <ImgComponent /> */}
-      <ClassComponent />
-      <FunctionalComponent />
-      <ClassBtnToNaver />
+      <Example3 />
     </div>
   );
 }
