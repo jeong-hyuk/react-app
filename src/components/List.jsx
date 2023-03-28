@@ -1,6 +1,5 @@
 import React from "react";
 import ListChild from "./ListChild";
-import Modal from "./Modal";
 
 export default function List() {
   return (
