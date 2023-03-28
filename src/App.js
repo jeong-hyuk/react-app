@@ -9,6 +9,7 @@ import List from "./components/List";
 import PropsHeader from "./components/PropsHeader";
 import MultiProps from "./components/MultiProps";
 import ClassProps from "./components/ClassProps";
+import Example4 from "./components/Example4";
 
 function App() {
   const str = "go naver";
@@ -19,7 +20,7 @@ function App() {
       <PropsHeader text="Hello, props22222" />
       <MultiProps text={str} href="https://naver.com" userID="jack" /> */}
       {/* <ClassProps name="뽀로로" age="5" nickName="병신" /> */}
-      <List />
+      <Example4 />
     </div>
   );
 }
