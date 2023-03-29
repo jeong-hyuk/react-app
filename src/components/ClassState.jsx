@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 export default class ClassState extends Component {
   //구버전
@@ -11,8 +11,9 @@ export default class ClassState extends Component {
 
   //신버전
   state = {
-    teacher: "김정혁",
+    teacher: '김정혁',
   };
+
   render() {
     const { teacher } = this.state;
 
@@ -22,7 +23,7 @@ export default class ClassState extends Component {
         <button
           onClick={() => {
             this.setState({
-              teacher: "jeong-hyuk",
+              teacher: 'jeong-hyuk',
             });
           }}
         >

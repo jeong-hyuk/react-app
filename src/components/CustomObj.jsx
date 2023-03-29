@@ -1,7 +1,8 @@
-import React from "react";
+import React from 'react';
 
 export default function CustomObj(props) {
   if (props.obj) {
+    console.log(props);
     const { name, age, nickName } = props.obj;
     return (
       <div>
