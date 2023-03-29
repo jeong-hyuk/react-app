@@ -20,6 +20,7 @@ import RefDomControl from './components/RefDomControl';
 import Example5 from './components/Example5';
 import Example6 from './components/Example6';
 import Comparing from './components/Comparing';
+import ReactFragment from './components/ReactFragment';
 
 function App() {
   const str = 'go naver';
@@ -38,7 +39,9 @@ function App() {
       {/* <ClassProps name="뽀로로" age="5" nickName="병신" /> */}
       {/* <CustomList arr={nameArr} /> */}
       {/* <CustomObj obj={pororoObj} /> */}
-      <Comparing />
+      {/* <h1>안녕하세요</h1>
+      <span>반갑습니다</span> */}
+      <ReactFragment />
     </div>
   );
 }
