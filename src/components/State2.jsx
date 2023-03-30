@@ -1,22 +1,22 @@
-import React from "react";
-import { useState } from "react";
+import React from 'react';
+import { useState } from 'react';
 
 export default function State2() {
-  let [strState, setStrState] = useState("init");
+  let [strState, setStrState] = useState('init');
 
   function changeState() {
-    strState += "-";
+    strState += '-';
     console.log(strState);
   }
 
   function customSetStrState() {
-    setStrState("변경 됨");
+    setStrState('변경 됨');
   }
   return (
     <div>
       <button
         onClick={() => {
-          setStrState(strState + "+");
+          setStrState(strState + '+');
         }}
       >
         리랜더링 반복

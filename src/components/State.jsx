@@ -1,5 +1,5 @@
-import React from "react";
-import { useState } from "react";
+import React from 'react';
+import { useState } from 'react';
 
 export default function State() {
   // let teacher = "김정혁";
@@ -9,13 +9,13 @@ export default function State() {
   //   spanEl.innerHTML = "jeong-hyuk";
   // }
 
-  const [teacher, setTeacher] = useState("김정혁");
+  const [teacher, setTeacher] = useState('김정혁');
   return (
     <div>
       <button
         onClick={() => {
           // inEnglish();
-          setTeacher("jeong-hyuk");
+          setTeacher('jeong-hyuk');
         }}
       >
         영어로

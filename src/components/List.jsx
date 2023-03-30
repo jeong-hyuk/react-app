@@ -1,19 +1,19 @@
-import React from "react";
-import ListChild from "./ListChild";
+import React from 'react';
+import ListChild from './ListChild';
 
 export default function List() {
   const dataArr = [
     {
-      title: "리액트 공부하기",
-      todo: "state 사용법 익히기",
+      title: '리액트 공부하기',
+      todo: 'state 사용법 익히기',
     },
     {
-      title: "코테 문제 풀기",
-      todo: "Lv 0 정복 가즈아",
+      title: '코테 문제 풀기',
+      todo: 'Lv 0 정복 가즈아',
     },
     {
-      title: "한강 가기",
-      todo: "경품 타기",
+      title: '한강 가기',
+      todo: '경품 타기',
     },
   ];
   return (

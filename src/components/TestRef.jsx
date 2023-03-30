@@ -1,15 +1,16 @@
 import { useState } from 'react';
 import { useRef } from 'react';
+import React from 'react';
 
 export default function TestRef() {
   const [text, setText] = useState('안녕하세요!');
 
   const inputValue = useRef();
 
-  const onChangeText = (e) => {
-    const inputText = e.target.value;
-    setText(inputText);
-  };
+  // const onChangeText = (e) => {
+  //   const inputText = e.target.value;
+  //   setText(inputText);
+  // };
 
   const onChangeRef = () => {
     console.log(inputValue);

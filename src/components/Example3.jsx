@@ -1,5 +1,5 @@
-import React from "react";
-import { useState } from "react";
+import React from 'react';
+import { useState } from 'react';
 
 export default function Example3() {
   const [countState, setCountState] = useState(0);
@@ -11,7 +11,7 @@ export default function Example3() {
           setCountState((cur) => cur + 1);
         }}
       >
-        {countState >= 10 ? "😃" : "👍"}
+        {countState >= 10 ? '😃' : '👍'}
       </span>
       <br />
       <span>{countState}</span>

@@ -1,6 +1,8 @@
+import React from 'react';
+
 function EventHandler() {
   function alertFunc() {
-    alert("클릭 됨");
+    alert('클릭 됨');
   }
   return (
     <div>

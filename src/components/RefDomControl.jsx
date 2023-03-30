@@ -1,4 +1,3 @@
-import { clear } from '@testing-library/user-event/dist/clear';
 import React, { useRef } from 'react';
 
 export default function RefDomControl() {

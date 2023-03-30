@@ -1,8 +1,8 @@
-import React from "react";
-import { useState } from "react";
+import React from 'react';
+import { useState } from 'react';
 
 export default function StateProblem() {
-  const [state, setState] = useState({ teacher: "김정혁" });
+  const [state, setState] = useState({ teacher: '김정혁' });
   console.log(state);
   return (
     <div>
@@ -10,7 +10,7 @@ export default function StateProblem() {
       <br />
       <button
         onClick={() => {
-          state.teacher = "jeong-hyuk";
+          state.teacher = 'jeong-hyuk';
           const copyObj = { ...state };
           setState(copyObj);
           console.log(state);

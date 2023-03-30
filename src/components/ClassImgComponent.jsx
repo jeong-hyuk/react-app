@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import img from "../jeju.jpg";
+import React, { Component } from 'react';
+import img from '../jeju.jpg';
 
 class ClassImgComponent extends Component {
   render() {

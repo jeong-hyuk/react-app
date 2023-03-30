@@ -1,4 +1,5 @@
-import imgf from "../jeju.jpg";
+import React from 'react';
+import imgf from '../jeju.jpg';
 function ImgComponent() {
   return <img src={imgf} alt="강아지" height={200} width={200} />;
 }
