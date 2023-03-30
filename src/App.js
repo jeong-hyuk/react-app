@@ -1,11 +1,10 @@
 import './App.css';
 import React from 'react';
-import Example78Conditional from './components/Example78Conditional';
-
+import TimerRender from './components/TimerRender';
 function App() {
   return (
     <div className="App">
-      <Example78Conditional />
+      <TimerRender />
     </div>
   );
 }
