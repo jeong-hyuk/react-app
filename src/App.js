@@ -1,10 +1,10 @@
 import './App.css';
 import React from 'react';
-import UseEffectFetch from './components/UseEffectFetch';
+import UsingUseMemo from './components/UsingUseMemo';
 function App() {
   return (
     <div className="App">
-      <UseEffectFetch />
+      <UsingUseMemo />
     </div>
   );
 }
