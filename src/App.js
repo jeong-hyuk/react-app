@@ -1,10 +1,10 @@
 import './App.css';
 import React from 'react';
-import TimerRender from './components/TimerRender';
+import UseEffectFetch from './components/UseEffectFetch';
 function App() {
   return (
     <div className="App">
-      <TimerRender />
+      <UseEffectFetch />
     </div>
   );
 }
