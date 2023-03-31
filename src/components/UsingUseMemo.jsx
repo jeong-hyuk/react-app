@@ -4,7 +4,11 @@ export default function UsingUseMemo() {
   const [number, setNumber] = useState(0);
   const [isKorea, setIsKorea] = useState(true);
 
-  const location = isKorea ? '한국' : '외국';
+  const location = useMemo(() => {
+    return {
+      where: isKorea ? '한국' : '외국',
+    };
+  }, [isKorea]);
 
   useEffect(() => {
     console.log('✨ useEffect 호출');
@@ -20,7 +24,7 @@ export default function UsingUseMemo() {
       />
       <br />
       <h1>where are you</h1>
-      <h2>위치 : {location}</h2>
+      <h2>위치 : {location.where}</h2>
       <button onClick={() => setIsKorea((cur) => !cur)}>위치 변경</button>
     </>
   );
