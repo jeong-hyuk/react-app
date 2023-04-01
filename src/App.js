@@ -1,11 +1,13 @@
+import logo from './logo.svg';
 import './App.css';
-import React from 'react';
-import UsingUseMemo from './components/UsingUseMemo';
+import ExampleStyled from './components/ExampleStyled.';
+
 function App() {
   return (
-    <div className="App">
-      <UsingUseMemo />
-    </div>
+    <>
+      <ExampleStyled />
+    </>
   );
 }
+
 export default App;
