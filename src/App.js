@@ -1,12 +1,13 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import ExampleStyled from './components/ExampleStyled.';
+import PropsStyle from './components/PropsStyle';
 
 function App() {
   return (
-    <>
-      <ExampleStyled />
-    </>
+    <div className="App">
+      <PropsStyle color="orange" />
+    </div>
   );
 }
 
